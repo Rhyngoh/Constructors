@@ -1,0 +1,11 @@
+Prototypes and Constructors Notes
+Object() is prototype
+var user_prototype = Object.getPrototypeOf(user);
+console.log("prototype of user is " + user_prototype);
+user.protoype.introduce = function introduce (){
+	console.log(stuff);
+};
+user.introduce(); // created a introduce for the prototype
+
+module.exports = Dud; (Dud is a constructor)
+another js: var Dud = require("./dud.js");
